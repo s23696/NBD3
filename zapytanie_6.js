@@ -1,0 +1,2 @@
+db.people.insert({"sex":"Female","first_name":"Marta","last_name":"Wojnarowska","job":"Product Flow Specialist","email":"s23696@pjwstk.edu.pl","location":{"city":"Warsaw","address":{"streetname":"Potocka","streetnumber":"14"}},"description":"nie wiem co tu napisac","height":"165","weight":"50","birth_date":"1997-05-14T18:17:00Z","nationality":"Poland","credit":[{"type":"switch","number":"1234567890987654321","currency":"PLN", "balance":"2137.45"}]})
+printjson(db.people.findOne({"first_name":"Marta","last_name":"Wojnarowska"}))
